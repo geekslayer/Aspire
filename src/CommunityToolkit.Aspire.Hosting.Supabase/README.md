@@ -1,0 +1,1 @@
+﻿# Aspire Hosting Supabase Integration

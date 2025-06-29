@@ -130,7 +130,7 @@ public class EventStorePublicApiTests
     public void EventStoreResourceCtorShouldThrowWhenNameIsNull()
     {
         var builder = new DistributedApplicationBuilder([]);
-        const string name = null!;
+        const string name = "";
 
         var action = () => new EventStoreResource(name);
 
